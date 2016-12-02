@@ -5255,9 +5255,7 @@ var Analytics = function() {
       sectionProperties.pageID = "decision_tree_part_1";
       sectionProperties.sectionID = section;
       amplitude.logEvent("section", sectionProperties);
-
-      // Google
-      ga("send", "event", "decision_tree_part_1", "scroll_section", section);
+      
     }
 
     this.currentSection = section;
