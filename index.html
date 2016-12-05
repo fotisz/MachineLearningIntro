@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-      A Visual Introduction to Machine Learning
+      A visual Machine Learning workflow
     </title>
 
     <!-- Bootstrap -->
@@ -37,7 +37,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-11 col-sm-4">
-            <a id="logo" class="hide-text" href="/">LOGO</a>
+            <a id="logo" class="hide-text" href="/">LOGO placeholder</a>
           </div>
         </div>
       </div>
@@ -47,10 +47,10 @@
 	<div class="row" id="intro">
 		<div class="col-xs-5">
 			<div id="set-up" class="tracking-section">
-				<h1>A Visual Introduction to Machine Learning</h1>
-				<p id="translations" class="small">Description: Some description can go here</p>
+				<h1>A visual Machine Learning workflow</h1>
+				<p id="translations" class="small"><a href="https://en.wikipedia.org/wiki/Decision_tree_learning">Decision tree learning</a> uses a decision tree as a predictive model which maps observations about an item (represented in the branches) to conclusions about the item's target value (represented in the leaves)</p>
 				<p>In machine learning, computers apply <strong>statistical learning</strong> techniques to automatically identify patterns in data. These techniques can be used to make highly accurate predictions. </p>
-				<p><em>Keep scrolling.</em> Using a data set about homes, we will create a machine learning model to distinguish homes in New York from homes in San Francisco.</p>
+				<p><em>Keep scrolling.</em> Using a data set about homes, we will create a machine learning model to distinguish homes in Place A from homes in Place B.</p>
 			</div>
 			<div id="keep-scrolling">
 				<div id="animated-arrow">
@@ -63,23 +63,23 @@
 			<hr class="whitespace" style="height: 30vh;" />
 			<div id="first-two" class="tracking-section">
 				<h2>First, some intuition</h2>
-				<p>Let&rsquo;s&nbsp;say you had to determine whether a home is in <strong style="color:rgb(65, 153, 43);">San Francisco</strong> or in <strong style="color:rgb(16, 70, 131);">New York</strong>. In machine learning terms, categorizing data points is a <strong>classification</strong> task.</p>
-				<p>Since San Francisco is relatively hilly, the elevation of a home may be a good way to distinguish the two cities.</p> 
-				<p>Based on the home-elevation data to the right, you could argue that a home above 240 ft should be <strong>classified</strong> as one in San Francisco.</p>
+				<p>Let&rsquo;s&nbsp;say you had to determine whether a home is in <strong style="color:rgb(65, 153, 43);">Place A</strong> or in <strong style="color:rgb(16, 70, 131);">Place B</strong>. In machine learning terms, categorizing data points is a <strong>classification</strong> task.</p>
+				<p>Since Place A is relatively hilly, the elevation of a home may be a good way to distinguish the two places.</p> 
+				<p>Based on the home-elevation data to the right, you could argue that a home above 240 ft should be <strong>classified</strong> as one in Place A.</p>
 			</div>
 			<hr class="whitespace" style="height: 40vh;" />
 			<div id="add-nuance">
 				<h2>Adding nuance</h2>
-				<p>Adding another <strong>dimension</strong> allows for more nuance. For example, New York apartments can be extremely expensive per square foot.</p>
+				<p>Adding another <strong>dimension</strong> allows for more nuance. For example, Place B apartments can be extremely expensive per square foot.</p>
 				<p>So visualizing elevation <em>and</em> price per square foot in a <strong>scatterplot</strong> helps us distinguish lower-elevation homes.</p>
-				<p>The data suggests that, among homes at or below 240 ft, those that cost more than $1776 per square foot are in New York City.</p>
-				<p>Dimensions in a data set are called <strong>features</strong>, <strong>predictors</strong>, or <strong>variables</strong>. <span class="footnote-anchor"></span></p>
+				<p>The data suggests that, among homes at or below 240 ft, those that cost more than £1776 per square foot are in Place B.</p>
+				<p>Dimensions in a data set are often called <strong>features</strong>, <strong>predictors</strong>, or <strong>variables</strong>. <span class="footnote-anchor"></span></p>
 
 			</div>
 			<hr class="whitespace" style="height: 30vh;" />
 			<div id="set-boundaries" class="tracking-section">
 				<h2>Drawing boundaries</h2>
-				<p>You can visualize your elevation (>242 ft) and price per square foot (>$1776) observations as the boundaries of regions in your scatterplot. Homes plotted in the green and blue regions would be in San Francisco and New York, respectively.</p>
+				<p>You can visualize your elevation (>242 ft) and price per square foot (>£1776) observations as the boundaries of regions in your scatterplot. Homes plotted in the green and blue regions would be in San Francisco and New York, respectively.</p>
 
 				<p>Identifying boundaries in data using math is the essence of statistical learning.</p>
 
@@ -116,7 +116,7 @@
 				<p>Clearly, this requires a different perspective.</p> 
 				<hr class="whitespace" style="height: 40vh;" />
 				<p>By transforming our visualization into a <strong>histogram</strong>, we can better see how frequently homes appear at each elevation.</p>
-				<p>While the highest home in New York is ~240 ft, the majority of them seem to have far lower elevations.</p>
+				<p>While the highest home in Place B is ~240 ft, the majority of them seem to have far lower elevations.</p>
 			</div>
 			<div id="introduce-split" class="tracking-section">
 				<hr class="whitespace" style="height: 30vh;" />
@@ -131,20 +131,20 @@
 				<p>That value between the branches is called a <strong>split point</strong>. Homes to the left of that point get categorized in one way, while those to the right are categorized in another. A split point is the decision tree's version of a boundary. </p> 
 				<hr class="whitespace" style="height: 50vh;" />
 				<h2>Tradeoffs</h2>
-				<p>Picking a split point has tradeoffs. Our initial split (~240 ft) incorrectly classifies some San Francisco homes as New York ones.</p>
+				<p>Picking a split point has tradeoffs. Our initial split (~240 ft) incorrectly classifies some Place A homes as Place B ones.</p>
 
-				<p>Look at that large slice of green in the left pie chart, those are all the San Francisco homes that are misclassified. These are called <strong>false negatives</strong>.</p>
+				<p>Look at that large slice of green in the left pie chart, those are all the Place A homes that are misclassified. These are called <strong>false negatives</strong>.</p>
 
 				<hr class="whitespace" style="height: 50vh;" />
 
 
-				<p>However, a split point meant to capture every San Francisco home will include many New York homes as well. These are called <strong>false&nbsp;positives</strong>.</p>
+				<p>However, a split point meant to capture every Place A home will include many Place B homes as well. These are called <strong>false&nbsp;positives</strong>.</p>
 				<hr class="whitespace" style="height: 50vh;" />
 
 				<h2>The best split</h2>
 				<p>At the <strong>best split</strong>, the results of each branch should be as homogeneous (or pure) as possible. There are several mathematical methods you can choose between to calculate the best split.<span class="footnote-anchor"></span></p>
 				<hr class="whitespace" style="height: 20vh;" />
-				<p>As we see here, even the best split on a single feature does not fully separate the San Francisco homes from the New York ones.</p>
+				<p>As we see here, even the best split on a single feature does not fully separate the Place A homes from the Place B ones.</p>
 				<hr class="whitespace" style="height: 10vh;" />
 			</div>
 			<div id="further-split" class="tracking-section">
@@ -155,7 +155,7 @@
 				<p class="small">The histograms to the left show the distribution of each subset, repeated for each variable.</p>
 				<hr class="whitespace" style="height: 30vh;" />
 				<p>The best split will vary based which branch of the tree you are looking at. <span class="footnote-anchor"></span></p> 
-				<p>For lower elevation homes, price per square foot is, at <em id="left-side-split-value">X dollars per sqft</em>, is the best variable for the next if-then statement. For higher elevation homes, it is <em id="right-side-split-attribute">price</em>, at <em id="right-side-split-value">Y dollars</em>.
+				<p>For lower elevation homes, price per square foot is, at <em id="left-side-split-value">X pounds per sqft</em>, is the best variable for the next if-then statement. For higher elevation homes, it is <em id="right-side-split-attribute">price</em>, at <em id="right-side-split-value">Y pounds</em>.
 				<hr class="whitespace" style="height: 40vh;" />
 			</div>
 
@@ -172,7 +172,7 @@
 				<hr class="whitespace" style="height: 60vh;" />
 				<p>Adding several more layers, we get to <strong>96%</strong>.</p>
 				<hr class="whitespace" style="height: 60vh;" />
-				<p>You could even continue to add branches until the tree's predictions are <strong>100% accurate</strong>, so that at the end of every branch, the homes are purely in San Francisco or purely in New York.</p>
+				<p>You could even continue to add branches until the tree's predictions are <strong>100% accurate</strong>, so that at the end of every branch, the homes are purely in Place A or purely in Place B.</p>
 			</div>
 			<div class="leaf-nodes" class="tracking-section">
 				<hr class="whitespace" style="height: 60vh;" />
@@ -187,7 +187,7 @@
 			<div id="classify-training-data" class="tracking-section">
 				<hr class="whitespace" style="height: 35vh;" />
 				<h2>Making predictions</h2>
-				<p>The newly-trained decision tree model determines whether a home is in San Francisco or New York by running each data point through the branches.</p>
+				<p>The newly-trained decision tree model determines whether a home is in Place A or Place B by running each data point through the branches.</p>
 				<hr class="whitespace" style="height: 35vh;"/p>
 				<p>Here you can see the data that was used to train the tree flow through the tree.</p>
 				<p>This data is called <strong>training data</strong> because it was used to train the model.</p>
@@ -212,7 +212,7 @@
 
 				<p>These errors are due to <strong>overfitting</strong>. Our model has learned to treat every detail in the training data as important, even details that turned out to be irrelevant.</p>
 
-				<p>Overfitting is part of a fundamental concept in machine learning that we&rsquo;ll explain in our next post.<span class="footnote-anchor"></span></p>
+				<p>Overfitting is part of a fundamental concept in machine learning.<span class="footnote-anchor"></span></p>
 				<hr class="whitespace" style="height: 30vh;" />
 			</div>
 		</div>
@@ -233,30 +233,14 @@
 		<div class="row">
 			<div class="col-xs-8 col-xs-offset-2">
 				<h2>Another header</h2>
-				<p>In our next post, we will explore overfitting, and how it relates to a fundamental trade-off in machine learning.</p>
-				<p>Questions? Thoughts? We would love to hear from you. Tweet us at <a href="https://twitter.com/r2d3us" target="_blank">@r2d3us</a> or email us at <a href="mailto:team@r2d3.us">team@r2d3.us</a>.</p>
-				<p>Want to be notified when the next post is released?</p>
+				<p>Some text goes here</p>
 				<hr class="whitespace" style="height: 5vh;" />
 			</div>
 			<div class="col-xs-5">
-				<p class="small">Follow us on Twitter...</p>
-				<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Machine learning explained in interactive visualizations (part 1) <a href="http://t.co/g75lLydMH9">http://t.co/g75lLydMH9</a> <a href="https://twitter.com/hashtag/d3js?src=hash">#d3js</a> <a href="https://twitter.com/hashtag/machinelearning?src=hash">#machinelearning</a></p>&mdash; r2d3.us (@r2d3us) <a href="https://twitter.com/r2d3us/status/625681063893864449">July 27, 2015</a></blockquote>
-				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				<p class="small">Some text goes here</p>
 			</div>
 			<div class="col-xs-5 col-xs-offset-1">
-				<p class="small">&hellip; or keep in touch with email!</p>
-				<div class="mailing-list">
-					<form action="http://r2d3.createsend.com/t/i/s/tywdu/" method="post" id="subForm">
-						<h4>Posts from R2D3.us</h4>
-						<div class="form-group">
-						  <input id="fieldEmail" name="cm-tywdu-tywdu" class="form-control" type="email" value="your email here" required />
-						</div>
-						<div class="form-group">
-						  <button  class="btn btn-primary" type="submit">Keep in touch!</button>
-					 	</div>
-					</form>
-				</div>
-
+				<p class="small">Some text goes here</p>
 				<hr class="whitespace" style="height: 25vh;" />
 			</div>
 		</div>
@@ -284,43 +268,6 @@
 <div class="static-container" id="train-vs-test"></div>
 
     <div id="footer" class="tracking-section">
-      <div class="container">
-        <div class="row">
-          <div id="about-r2d3" class="col-xs-12 col-sm-5">
-            <div class="row">
-              <div class="col-xs-3">
-                <a id="footer-logo" class="hide-text" href="/">R2D3</a>
-              </div>
-              <div class="col-xs-9">
-                <p>R2D3 is an experiment in expressing statistical thinking with interactive design. Find us at <a target="_blank" href="https://twitter.com/r2d3us">@r2d3us</a>.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-7">
-            <div class="row team-bio">
-              <div class="col-xs-3">
-                <img class="footer-portrait" src="/MachineLearningIntro/static/app/global/jadeyee.png" />
-              </div>
-              <div class="col-xs-8">
-                <h3>Stephanie interprets R2</h3>
-                <p>Stephanie just finished up a masters degree at Stanford in statistics. In the past, she's been at <a href="https://siftscience.com/">Sift Science</a>, Google, <a href="http://www.bain.com/">Bain & Company</a>, and <a href="http://www.vectorcapital.com/">Vector Capital</a>.</p>
-
-                <p>Find Stephanie: <a href="http://www.linkedin.com/in/stephaniejyee" target="_blank">LinkedIn</a> <a href="http://twitter.com/stephaniejyee" target="_blank" >Twitter</a> <a href="mailto:yee@r2d3.us" target="_blank">Email</a></p>
-              </div>
-            </div>
-            <div class="row team-bio">
-              <div class="col-xs-3">
-                <img class="footer-portrait" src="/MachineLearningIntro/static/app/global/tonyhschu.png" />
-              </div>
-              <div class="col-xs-8">
-                <h3>Tony visualizes with D3</h3>
-                <p>Tony is a designer who loves data visualizations and information design. He currently leads product and user experience design at <a href="http://h2o.ai/">H2O</a>. Prior to H2O, he was the lead designer at <a href="https://siftscience.com/">Sift Science</a>. He holds an <a href="http://interactiondesign.sva.edu/">MFA in Interaction Design at the School of Visual Arts</a> in New York City, where he tried to <a href="http://letsfreecongress.org">change congress with a fancy infographic</a>.</p>
-                <p>Find Tony: <a href="http://tonyhschu.ca/" target="_blank">Portfolio</a> <a href="http://twitter.com/tonyhschu/" target="_blank">Twitter</a> <a href="http://blog.tonyhschu.ca" target="_blank">Blog</a> <a href="https://www.linkedin.com/in/tonyhschu" target="_blank">LinkedIn</a> <a href="mailto:chu@r2d3.us">Email</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
