@@ -9,7 +9,6 @@ var R2D3Views = [];
 var fps = 15;
 var scrollTop = 0, actualScrollTop = 0;
 
-function checkScroll() {
   actualScrollTop = $window.scrollTop();
 
   if(actualScrollTop != scrollTop) {
@@ -52,55 +51,30 @@ var DIMENSIONS = [
 
 var DIMENSION_LONGFORM = {
   elevation: {
-    "en": "elevation",
-    "ru": "возвышение",
-    "zh": "海拔",
-    "fr": "altitude"
+    "en": "elevation"
   },
   year_built: {
-    "en": "year built",
-    "ru": "год постройки",
-    "zh": "建成年份",
-    "fr": "construction"
+    "en": "year built"
   },
   bath: {
-    "en": "bathrooms",
-    "ru": "кол-во ванных",
-    "zh": "浴室",
-    "fr": "bains"
+    "en": "bathrooms"
   },
   beds: {
-    "en": "bedrooms",
-    "ru": "кол-во спален",
-    "zh": "臥室",
-    "fr": "pièces"
+    "en": "bedrooms"
   },
   price: {
-    "en": "price",
-    "ru": "стоимость",
-    "zh": "價格",
-    "fr": "prix"
+    "en": "price"
   },
   sqft: {
-    "en": "square feet",
-    "ru": "площадь",
-    "zh": "海拔",
-    "fr": "mètres"
+    "en": "square feet"
   },
   price_per_sqft: {
-    "en": "price per sqft",
-    "ru": "цена за m²",
-    "zh": "每平方公尺價格",
-    "fr": "prix par mètre"
+    "en": "price per sqft"
   }
 }
 
 var testAccuracyText = function(LANG) {
   switch (LANG) {
-    case 'ru':
-      return 'точность результатов на тестовой выборке'
-    case 'fr':
-      return 'précision sur les données de test'
     case 'en':
     default: 
       return 'Test Accuracy';
@@ -109,10 +83,6 @@ var testAccuracyText = function(LANG) {
 
 var trainingAccuracyText = function(LANG) {
   switch (LANG) {
-    case 'ru':
-      return 'точность результатов на обучающей выборке'
-    case 'fr':
-      return 'précision sur les données d’apprentissage'
     case 'en':
     default: 
       return 'Training Accuracy';
@@ -137,7 +107,7 @@ var DIMENSION_UNITS = {
     suffix: "bedrooms"
   },
   price: {
-    prefix: "$",
+    prefix: "£",
     suffix: ""
   },
   sqft: {
@@ -145,7 +115,7 @@ var DIMENSION_UNITS = {
     suffix: "sqft"
   },
   price_per_sqft: {
-    prefix: "$",
+    prefix: "£",
     suffix: "per sqft"
   }
 }
@@ -3406,7 +3376,7 @@ var GiniPieChartView = Backbone.View.extend({
     this.isTargetNumberView = new GiniPieNumber({
       g: this.isTargetNumberText,
       data: this.data.parts[0].count,
-      label: "SF",
+      label: "A",
       fill: FILL_FN("isTarget")
     });
 
@@ -3416,7 +3386,7 @@ var GiniPieChartView = Backbone.View.extend({
     this.isNotTargetNumberView = new GiniPieNumber({
       g: this.isNotTargetNumberText,
       data: this.data.parts[1].count,
-      label: "NY",
+      label: "B",
       fill: FILL_FN("isNotTarget")
     });
 
@@ -5311,8 +5281,8 @@ var filteredData = _.map(tree_training_set, function(d) {
 
   _.each(DIMENSIONS, function(D) { f[D.id] = d[D.id]; });
 
-  f['city'] = "B";
-  if(d["target"] > 0.5) { f['city'] = "A"; }
+  f['city'] = "NY";
+  if(d["target"] > 0.5) { f['city'] = "SF"; }
 
   return f;
 })
