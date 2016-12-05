@@ -1909,7 +1909,7 @@ var VariableIntroductionView = Backbone.View.extend({
 
           g.append('text')
             //.text('$' + d.value + '/sqft')
-            .text('$' + UNIT_CONVERSION(d.value, 'per sqft', LANG))
+            .text('£' + UNIT_CONVERSION(d.value, 'per sqft', LANG))
             .attr('font-size', 11)
             .attr('color', '#aaaaaa')
             .attr('text-anchor', textAnchor);
