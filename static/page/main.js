@@ -5311,8 +5311,8 @@ var filteredData = _.map(tree_training_set, function(d) {
 
   _.each(DIMENSIONS, function(D) { f[D.id] = d[D.id]; });
 
-  f['city'] = "NY";
-  if(d["target"] > 0.5) { f['city'] = "SF"; }
+  f['city'] = "B";
+  if(d["target"] > 0.5) { f['city'] = "A"; }
 
   return f;
 })
