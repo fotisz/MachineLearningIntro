@@ -8,7 +8,8 @@ $window.on("resize", _.debounce(function() {
 var R2D3Views = [];
 var fps = 15;
 var scrollTop = 0, actualScrollTop = 0;
-
+ 
+function checkScroll() {
   actualScrollTop = $window.scrollTop();
 
   if(actualScrollTop != scrollTop) {
