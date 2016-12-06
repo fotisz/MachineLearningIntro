@@ -26,5 +26,5 @@ Visual Introduction to Machine Learning
 
 Task List 
 ---
-- [x] This is a complete item
-- [ ] This is an incomplete item
+- [x] Directory structure
+- [ ] Clean up code
