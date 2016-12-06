@@ -31,3 +31,4 @@ Task List
 - [ ] Set up Google Analytics
 - [ ] Clean up Code
 - [ ] Reponsiveness
+- [ ] Footer 
