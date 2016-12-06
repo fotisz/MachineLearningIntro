@@ -28,4 +28,5 @@ Task List
 ---
 - [x] Directory Structure
 - [ ] Set up Amplitude Analytics
+- [ ] Set up Google Analytics
 - [ ] Clean up Code
