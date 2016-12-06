@@ -26,5 +26,6 @@ Visual Introduction to Machine Learning
 
 Task List 
 ---
-- [x] Directory structure
-- [ ] Clean up code
+- [x] Directory Structure
+- [ ] Set up Amplitude Analytics
+- [ ] Clean up Code
