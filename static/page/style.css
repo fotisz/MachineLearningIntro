@@ -84,6 +84,7 @@ div {
   position: absolute;
   z-index: 1000;
 }
+
 .hideCanvas {
   opacity: 0;
 }
