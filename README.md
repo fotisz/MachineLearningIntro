@@ -12,7 +12,7 @@ Visual Introduction to Machine Learning
  * [file_in_root.ext](./file_in_root.ext)
  * [README.md](./README.md)
  * [dir3](./dir3)
-
+<pre>
 ├── MachineLearningIntro
 ├── static
 │   ├── app
@@ -26,3 +26,4 @@ Visual Introduction to Machine Learning
 ├── index.html
 ├── LICENSE
 └── README.md
+</pre>
