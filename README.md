@@ -30,3 +30,4 @@ Task List
 - [ ] Set up Amplitude Analytics
 - [ ] Set up Google Analytics
 - [ ] Clean up Code
+- [ ] Reponsiveness
