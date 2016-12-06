@@ -23,3 +23,8 @@ Visual Introduction to Machine Learning
 ├── LICENSE
 └── README.md
 </pre>
+
+Task List 
+---
+- [x] This is a complete item
+- [ ] This is an incomplete item
