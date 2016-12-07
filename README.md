@@ -44,25 +44,25 @@ Task List
       │   ├── app
       │   │   ├── components
       │   │   │   ├── backbone
--[ ]  |   |   |   |   └── backbone.js
+[ ]   |   |   |   |   └── backbone.js
       │   │   │   ├── bootstrap
-      |   |   |   |   ├── css
-      |   |   |   |   └── js
+[ ]   |   |   |   |   ├── css
+[ ]   |   |   |   |   └── js
       │   │   |   ├── d3
-      |   |   |   |   └── d3.js
+[ ]   |   |   |   |   └── d3.js
       │   │   |   ├── jquery
-      |   |   |   |   └── jquery.js
+[ ]   |   |   |   |   └── jquery.js
       │   │   |   ├── riveted
-      |   |   |   |   └── riveted.js
+[ ]   |   |   |   |   └── riveted.js
       │   |   |   └── underscore
-      |   |   |       └── underscore.js
+[ ]   |   |   |       └── underscore.js
       │   |   └── global
-      |   |       └── style.css
+[ ]   |   |       └── style.css
       │   └── page
-      |       ├── helpers.js
-      |       ├── main.js
-      |       └── style.css
-      ├── index.html
+[ ]   |       ├── helpers.js
+[ ]   |       ├── main.js
+[ ]   |       └── style.css
+[ ]   ├── index.html
       ├── LICENSE
       └── README.md
 </pre>
