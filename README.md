@@ -8,11 +8,18 @@ Visual Introduction to Machine Learning
 │   ├── app
 │   │   ├── components
 │   │   │   ├── backbone
+|   |   |   |   └── backbone.js
 │   │   │   ├── bootstrap
+|   |   |   |   ├── css
+|   |   |   |   └── js
 │   │   |   ├── d3
+|   |   |   |   └── d3.js
 │   │   |   ├── jquery
+|   |   |   |   └── jquery.js
 │   │   |   ├── riveted
+|   |   |   |   └── riveted.js
 │   |   |   └── underscore
+|   |   |       └── underscore.js
 │   |   └── global
 |   |       └── style.css
 │   └── page
