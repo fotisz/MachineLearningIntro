@@ -38,7 +38,7 @@ Task List
 - [ ] Set up Google Analytics
 - [ ] Clean up Code
 <pre>
-[  ]  .
+[ ]   .
       ├── <b>MachineLearningIntro</b>
       ├── static
       │   ├── app
