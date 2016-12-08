@@ -7,18 +7,18 @@ Visual Introduction to Machine Learning
 │   ├── app
 │   │   ├── components
 │   │   │   ├── backbone
-|   |   |   |   └── backbone.js           <i color="red"># Hallo</i> 
+|   |   |   |   └── backbone.js           <i># Model-view-presenter single-page web application framework</i> 
 │   │   │   ├── bootstrap
-|   |   |   |   ├── css
-|   |   |   |   └── js
+|   |   |   |   ├── css                   <i># CSS framework for developing responsive, mobile first projects on the web</i> 
+|   |   |   |   └── js                    <i># JS framework for developing responsive, mobile first projects on the web</i> 
 │   │   |   ├── d3
-|   |   |   |   └── d3.js
+|   |   |   |   └── d3.js                 <i># JS library for manipulating documents based on data</i>
 │   │   |   ├── jquery
-|   |   |   |   └── jquery.js
+|   |   |   |   └── jquery.js             <i># JS library to simplify client-side scripting of HTML and Backbone dependency</i>
 │   │   |   ├── riveted
-|   |   |   |   └── riveted.js
+|   |   |   |   └── riveted.js            <i># Google Analytics plugin to measure active time on site</i>
 │   |   |   └── underscore
-|   |   |       └── underscore.js
+|   |   |       └── underscore.js         <i># JS library with functional programming helpers and Backbone dependency</i>
 │   |   └── global
 |   |       └── style.css
 │   └── page
