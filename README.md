@@ -7,18 +7,18 @@ Visual Introduction to Machine Learning
 │   ├── app
 │   │   ├── components
 │   │   │   ├── backbone
-|   |   |   |   └── backbone.js           <i># Model-view-presenter single-page web application framework</i> 
+|   |   |   |   └── backbone.js     <i># Model-view-presenter single-page web application framework</i> 
 │   │   │   ├── bootstrap
-|   |   |   |   ├── css                   <i># CSS framework for developing responsive, mobile first projects on the web</i> 
-|   |   |   |   └── js                    <i># JS framework for developing responsive, mobile first projects on the web</i> 
+|   |   |   |   ├── css             <i># CSS framework for developing responsive, mobile first projects on the web</i> 
+|   |   |   |   └── js              <i># JS framework for developing responsive, mobile first projects on the web</i> 
 │   │   |   ├── d3
-|   |   |   |   └── d3.js                 <i># JS library for manipulating documents based on data</i>
+|   |   |   |   └── d3.js           <i># JS library for manipulating documents based on data</i>
 │   │   |   ├── jquery
-|   |   |   |   └── jquery.js             <i># JS library to simplify client-side scripting of HTML and Backbone dependency</i>
+|   |   |   |   └── jquery.js       <i># JS library to simplify client-side scripting of HTML and Backbone dependency</i>
 │   │   |   ├── riveted
-|   |   |   |   └── riveted.js            <i># Google Analytics plugin to measure active time on site</i>
+|   |   |   |   └── riveted.js      <i># Google Analytics plugin to measure active time on site</i>
 │   |   |   └── underscore
-|   |   |       └── underscore.js         <i># JS library with functional programming helpers and Backbone dependency</i>
+|   |   |       └── underscore.js   <i># JS library with functional programming helpers and Backbone dependency</i>
 │   |   └── global
 |   |       └── style.css
 │   └── page
