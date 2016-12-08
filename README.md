@@ -7,7 +7,7 @@ Visual Introduction to Machine Learning
 │   ├── app
 │   │   ├── components
 │   │   │   ├── backbone
-|   |   |   |   └── backbone.js           <i># Hallo</i> 
+|   |   |   |   └── backbone.js           <i color="red"># Hallo</i> 
 │   │   │   ├── bootstrap
 |   |   |   |   ├── css
 |   |   |   |   └── js
