@@ -2,7 +2,7 @@
 Visual Introduction to Machine Learning
 
 <pre>
-**MachineLearningIntro**
+<strong>MachineLearningIntro</strong>
 ├── static
 │   ├── app
 │   │   ├── components
