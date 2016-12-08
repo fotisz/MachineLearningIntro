@@ -37,9 +37,6 @@ function draw() {
   }
 }
 
-var LANG = $('html').attr('lang');
-LANG = (typeof LANG !== 'undefined') ? LANG : 'en';
-
 var DIMENSIONS = [
   { "id": "elevation" },
   { "id": "year_built" },
@@ -247,7 +244,6 @@ var BinContinuousDataByPredicate = function(args) {
   var isTargetsGrouped = _.groupBy(isTargets, function(d) {
     return Math.floor((d[args.key]-min)/range * (args.bins-1))
   });
-
 
   var isNotTargets = partition[1];
   var isNotTargetsGrouped = _.groupBy(isNotTargets, function(d) {
