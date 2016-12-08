@@ -37,6 +37,9 @@ function draw() {
   }
 }
 
+var LANG = $('html').attr('lang');
+ LANG = (typeof LANG !== 'undefined') ? LANG : 'en';
+   
 var DIMENSIONS = [
   { "id": "elevation" },
   { "id": "year_built" },
