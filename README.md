@@ -36,9 +36,9 @@ Task List
 - [ ] Set up Amplitude Analytics
 - [ ] Set up Google Analytics
 - [ ] Clean up Code
+
 <pre>
-.
-├── **MachineLearningIntro**
+<strong>MachineLearningIntro</strong>
 ├── static
 │   ├── app
 │   │   ├── components
@@ -65,5 +65,6 @@ Task List
 ├── LICENSE
 └── README.md
 </pre>
+
 - [ ] Reponsiveness
 - [ ] Footer 
