@@ -34,7 +34,7 @@ Visual Introduction to Machine Learning
 Task List 
 ---
 - [x] Annotated directory structure 
-- [ ] Set up Amplitude analytics
+- [x] Set up Amplitude analytics
 - [ ] Set up Google analytics
 - [ ] Clean up code
 
