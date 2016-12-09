@@ -34,9 +34,8 @@ Visual Introduction to Machine Learning
 Task List 
 ---
 - [x] Annotated directory structure 
-- [x] Set up Amplitude analytics
--- [ ] Behavioural cohorting
-- [ ] Set up Google analytics
+- [x] Set up Amplitude analytics    -- Event-based analytics
+- [ ] Set up Google analytics       -- User-based analytics
 - [ ] Clean up code
 
 <pre>
