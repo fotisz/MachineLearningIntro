@@ -35,6 +35,7 @@ Task List
 ---
 - [x] Annotated directory structure 
 - [x] Set up Amplitude analytics
+-- [ ] Behavioural cohorting
 - [ ] Set up Google analytics
 - [ ] Clean up code
 
