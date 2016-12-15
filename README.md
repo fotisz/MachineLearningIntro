@@ -1,4 +1,4 @@
-# A visual ML workflow
+# Supervised ML workflow
 ![alt tag](https://github.com/fotisz/MachineLearningIntro/blob/master/SupervisedWorkflow.png "Supervised Learning")
 kjyhjkhkjhjkkjyhjkhkjhjkkjyhjkhkjhjkkjyhjkhkjhjkkjyhjkhkjhjkkjyhjkhkjhjkkjyhjkhkjhjk
 ## Annotated Directory structure
