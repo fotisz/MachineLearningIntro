@@ -67,5 +67,5 @@ Task List
 └── README.md
 </pre>
 
-- [ ] Reponsiveness
+- [x] Reponsiveness
 - [ ] Footer 
