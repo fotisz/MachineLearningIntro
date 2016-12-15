@@ -1,7 +1,7 @@
 # A visual ML workflow
 Visual Introduction to Machine Learning
 
-![alt tag](https://github.com/fotisz/MachineLearningIntro/blob/master/SupervisedWorkflow.png)
+![alt tag](https://github.com/fotisz/MachineLearningIntro/blob/master/SupervisedWorkflow.png "Supervised Learning")
 
 <pre>
 <strong>MachineLearningIntro</strong>
