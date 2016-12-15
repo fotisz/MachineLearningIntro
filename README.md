@@ -1,6 +1,5 @@
 # Supervised ML workflow
-![alt tag](https://github.com/fotisz/MachineLearningIntro/blob/master/SupervisedWorkflow.png "Supervised Learning")
-kjyhjkhkjhjkkjyhjkhkjhjkkjyhjkhkjhjkkjyhjkhkjhjkkjyhjkhkjhjkkjyhjkhkjhjkkjyhjkhkjhjk
+![alt tag](https://github.com/fotisz/MachineLearningIntro/blob/master/SupervisedMLWorkflow.png "Supervised Learning")
 ## Annotated Directory structure
 <pre>
 <strong>MachineLearningIntro</strong>
