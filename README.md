@@ -37,7 +37,7 @@ Task List
 - [x] Set up Amplitude analytics    -- Event-based analytics
 - [ ] Set up Google analytics       -- User-based analytics
 - [ ] Clean up code
-- [ ] Add favicon                   -- <link rel="shortcut icon" type="image/png" href="{{site.url}}/favicon.png">
+- [ ] Add favicon                   -- Cross platform
 
 <pre>
 <strong>MachineLearningIntro</strong>
