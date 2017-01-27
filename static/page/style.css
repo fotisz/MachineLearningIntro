@@ -12,6 +12,31 @@ div {
   overflow: hidden;
 }
 
+.co_mouse {
+  position: relative;
+  display: block;
+  width: 20px;
+  margin: 0 auto 19px;
+  height: 35px;
+  box-sizing: 35px;
+  border: 2px solid #000;
+  border-radius: 23px;
+}
+
+.co_mouse-movement {
+  position: absolute;
+  display: block;
+  top: 29%;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  margin: -6px 0 0 -3px;
+  background: #000;
+  border-radius: 50%;
+  -webkit-animation: scroll-ani 4s linear infinite;
+  animation: scroll-ani 4s linear infinite;
+}
+
 #main {
   position: relative;
   z-index: 100;
