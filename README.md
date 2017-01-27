@@ -36,7 +36,8 @@ Task List
 - [x] Annotated directory structure 
 - [x] Set up Amplitude analytics    -- Event-based analytics
 - [ ] Set up Google analytics       -- User-based analytics
-- [ ] Clean up code
+- [x] Clean up code
+- [ ] Improve scroll down icon      
 - [ ] Add favicon                   -- Cross platform
 
 <pre>
