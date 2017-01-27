@@ -23,6 +23,22 @@ div {
   border-radius: 23px;
 }
 
+
+.co_mouse_ani {
+    display: inline-block;
+    line-height: 18px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #f77832;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 10%;
+    overflow: hidden;
+    bottom: 100px;
+    right: calc(49vw);
+    width: 24px
+}
+
 .co_mouse-movement {
   position: absolute;
   display: block;
