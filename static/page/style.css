@@ -52,6 +52,50 @@ div {
   animation: scroll-ani 4s linear infinite;
 }
 
+@-webkit-keyframes scroll-ani {
+    0% {
+        opacity: 1;
+        top: 29%
+    }
+
+    15% {
+        opacity: 1;
+        top: 70%
+    }
+
+    50% {
+        opacity: 0;
+        top: 70%
+    }
+
+    100% {
+        opacity: 0;
+        top: 29%
+    }
+}
+
+@keyframes scroll-ani {
+    0% {
+        opacity: 1;
+        top: 29%
+    }
+
+    15% {
+        opacity: 1;
+        top: 70%
+    }
+
+    50% {
+        opacity: 0;
+        top: 70%
+    }
+
+    100% {
+        opacity: 0;
+        top: 29%
+    }
+}
+
 #main {
   position: relative;
   z-index: 100;
