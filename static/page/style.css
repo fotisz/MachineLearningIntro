@@ -61,26 +61,6 @@ div {
     pointer-events: none;
 }
 
-.co_mouse_ani::after,.industries::after,.role::after,.co_mouse_ani {
-    position: absolute;
-    speak: none;
-    text-decoration: none;
-    text-rendering: optimizeLegibility;
-    text-transform: none;
-    font-smoothing: antialiased;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
-}
-
-.co_mouse_ani::after {
-    top: 74%;
-    right: -1px;
-    opacity: 100;
-    font-size: 20px;
-    font-weight: normal;
-    color: #fff
-}
-
 @-webkit-keyframes scroll-ani {
     0% {
         opacity: 1;
